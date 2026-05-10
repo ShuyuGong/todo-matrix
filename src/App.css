@@ -258,6 +258,7 @@ body {
   color: var(--text-primary);
   word-break: break-all;
   min-width: 0;
+  text-align: left;
 }
 
 /* 备注数量徽标 */
@@ -369,6 +370,7 @@ body {
   color: var(--text-secondary);
   line-height: 1.4;
   word-break: break-all;
+  text-align: left;
 }
 
 .subtask-item.completed .subtask-text {
@@ -416,6 +418,7 @@ body {
   color: var(--text-primary);
   outline: none;
   transition: var(--transition);
+  text-align: left;
 }
 
 .subtask-form input::placeholder {
